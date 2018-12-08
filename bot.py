@@ -13,6 +13,6 @@ api = twitter.Twitter(auth=twitter.OAuth(tok,
                       ckey,
                       ckey_sec))
 
-#api.statuses.update(status="I'm going to sleep... Tommorrow i'll have to plan out what i have to do... Good night..")
+#api.statuses.update(status="Test")
 
 print(time.strftime("%Y%m%d-%H%M"))
